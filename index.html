@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel Morales Morilla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Klee+One&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="btn">
+            <button id="mostrar" class="btn1">Mostrar Chat</button>
+            <button id="ocultar" class="btn2">Ocultar chat</button>
+        </div>
+        <div id='contenido' class="contenido">
+            <div id="chat" class="chat">
+                <div id="texto">
+                    <div id="contenedorMensajes" class="contenedorMensajes"></div>
+                    
+                    <form onsubmit="añadir()">
+                        <div class="enviar">
+                           <input id="mensaje" class="mensaje" type="text" required placeholder="Escribe tu mensaje">
+                           <button id="enviar" onclick="" type="submit">enviar</button>
+                       </div>
+                   </form>
+                </div>
+                
+                   
+                    
+            </div>
+            
+        </div>
+    </div>
+    <script src="JavaScript.js"></script>
+    
+</body>
+</html>

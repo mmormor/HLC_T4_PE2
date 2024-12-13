@@ -1,0 +1,107 @@
+body{
+    font-family: "Nunito", serif;
+    margin: 0;
+    
+}
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+}
+.btn{
+    width: 30%;
+    background-color:  #85cef0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn button{
+    width: 60%;
+    background-color:#f8f8ff ;
+    align-items: center;
+    margin-left:  15%;
+    margin-top: 5%;
+    border: 2px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.btn button:hover{
+    background-color:#E2E5E7 ;
+}
+.btn1{
+    margin-top: 10%;
+}
+.contenido{
+    background-color: #E2E5E7;
+    width: 70%;
+    align-items: center;
+  
+
+}
+
+.chat{
+    background-color:  #f8f8ff; 
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    border: 0px ;
+    box-shadow:5px 5px 10px 10px grey ;
+}
+
+.enviar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 75%; 
+    background-color: #E2E5E7;
+    padding: 20px;
+}
+
+#enviar{
+    background-color:  #f9dc6a; 
+    border: 0;
+    border-radius: 3px ;
+    width: 15%;
+    
+
+}
+
+
+.mensaje{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 2%;
+    
+}
+ #texto{ 
+    
+    overflow-y: auto; height: 100%; 
+ } 
+
+ #contenedorMensajes div{
+background-color: #f9dc6a;
+color:black;
+padding: 4px;
+border: 0;
+border-radius: 4px;
+display: inline-block;
+align-self:flex-start;
+ }
+
+#contenedorMensajes div2{
+background-color: #85CEF0;
+color:black;
+padding: 4px;
+border: 0;
+border-radius: 4px;
+display: inline-block;
+align-self: flex-end;
+ }
+
+
+    
